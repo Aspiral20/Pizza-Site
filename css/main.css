@@ -43,13 +43,28 @@ body {
 }
 
 .menu .menu__item {
+    position: relative;
     font-size: 16px;
-    color: rgb(164, 107, 0);
+    color: rgb(134 87 0);
     text-decoration: none;
 }
 
-.menu__item_active {
-    border-bottom: 1px solid;
+.menu .menu__item:hover {
+    color: rgb(189 124 1);
+}
+
+.bottom-bar{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    opacity: .85;
+    background: rgb(134 87 0)
+}
+
+.menu__item:hover .bottom-bar {
+    background-color: rgb(189 124 1);
 }
 
 .main__container {

@@ -84,4 +84,21 @@ $(document).ready(function() {
     $('.pizza-one-image-parallax').parallax({imageSrc: 'images/PizzaOneImageParallax.jpg'});
     $('.pizza-two-image-parallax').parallax({imageSrc: 'images/PizzaTwoImageParallax.jpg'});
     $('.pizza-three-image-parallax').parallax({imageSrc: 'images/PizzaThreeImageParallax.jpg'});
+
+
+    //Header hover-effect:
+    let menuItem = $('.menu__item');
+    let menuItemActive = $('.menu__item-active');
+
+    for (let i = 0; i < menuItem.length; i++) {
+        $(menuItem[i]).click(function () {
+            $(menuItemActive[i]).addClass('bottom-bar');
+
+            for (let j = 0; j < menuItem.length; j++) {
+                if (i !== j) {
+                    $(menuItemActive[j]).removeClass('bottom-bar');
+                }
+            }
+        })
+    }
 });
