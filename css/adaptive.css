@@ -1,24 +1,22 @@
 /* 1024 - 1229 */
 @media screen and (max-width: 1229px){
-    #menu {
+    .menu {
         margin: 0;
     }
 
-    #header-container {
+    .header__container,
+    .main__container,
+    .footer__container,
+    .order__container {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #main-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #main-image {
+    .main__image {
         max-width: 400px;
     }
 
-    #main-image img {
+    .main__image img {
         max-width: 100%;
     }
 
@@ -26,141 +24,136 @@
         margin: 12px;
     }
 
-    #products-items {
+    .products__items {
         justify-content: center;
     }
 
-    #order-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #order-image {
+    .order__image {
         width: 200px;
-    }
-
-    #footer-container {
-        padding-left: 20px;
-        padding-right: 20px;
     }
 }
 
 /* 768- 1023 */
 @media screen and (max-width: 1023px){
-    #menu {
+    .menu {
         width: 420px;
     }
 
-    #main-container {
+    .main__container {
         flex-direction: column;
         padding-top: 70px;
     }
 
-    #main-info {
+    .main__info {
         order: 2;
     }
 
-    #main-info h1 {
+    .main__info .title {
         text-align: center;
     }
 
-    #main-action {
+    .main__action {
         text-align: center;
     }
 
-    #main-image {
+    .main__image {
         order: 1;
         margin-bottom: 30px;
     }
 
-    #products-container {
+    .products__container {
         padding-top: 70px;
     }
 
-    #products-items {
+    .products__items {
         margin-top: 20px;
     }
 
-    #order-container {
+    .order__container {
         padding-top: 50px;
         position: relative;
         justify-content: center;
     }
 
-    #order-form {
+    .order__form {
         margin-left: 20px;
     }
 
-    #order-image {
+    .order__image {
         position: absolute;
         z-index: -1;
         right: calc(50% - 400px);
     }
 
-    #order-image img {
+    .order__image .img {
         position: static;
     }
 }
 
 /* 425 - 767 */
 @media screen and (max-width: 767px){
-    #header-container {
+    .header__container {
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    #cart {
+    .header__cart {
         margin-left: 20px;
     }
 
-    #menu a.menu-item {
+    .menu .menu__item {
         margin: 0 5px;
     }
 
-    #menu {
+    .menu {
         order: 3;
         margin-top: 15px;
         flex-basis: 100%;
         justify-content: center;
     }
 
-    #rights {
+    .footer__rights {
         margin: 0;
     }
 
-    #footer-container {
+    .footer__container {
         justify-content: space-between;
     }
 
-    #main-info h1 {
+    .main__info .title {
         line-height: 45px;
     }
 
-    #order-container {
+    .order__container {
         flex-wrap: wrap;
         text-align: center;
     }
 
-    #order-text-title {
+    .medium-title {
         line-height: 35px;
     }
 
-    #order-text-message {
+    .order__message {
         margin-top: 25px;
         margin-bottom: 25px;
     }
 
-    #order-form {
+    .order__form {
         margin: 0 10px;
     }
 
-    #order-image {
+    .order__image {
         right: calc(50% - 200px);
+    }
+
+    .order__hidden-block-form {
+        background: white;
+        opacity: .9;
     }
 }
 
 @media screen and (max-width: 649px){
-    #main-advantages {
+    .main__advantages {
         max-width: 300px;
         margin: 0 auto;
     }
@@ -168,7 +161,7 @@
 
 /* 375 - 424 */
 @media screen and (max-width: 424px){
-    #menu {
+    .menu {
         display: none;
         position: fixed;
         width: 100%;
@@ -183,22 +176,22 @@
         left: 0;
     }
 
-    #burger {
+    .header__burger {
         display: block;
         margin-right: 20px;
     }
 
-    #burger svg {
+    .header__burger svg {
         width: 36px;
         height: 36px;
         fill: #f9d6a6;
     }
 
-    #menu.open {
+    .menu.open {
         display: flex;
     }
 
-    #menu svg {
+    .menu .menu__close {
         display: block;
         width: 24px;
         height: 24px;
@@ -208,22 +201,22 @@
         left: 20px;
     }
 
-    #menu a.menu-item {
-        margin: 15px 5px;
+    .menu .menu__item {
+        margin: 17px 5px;
     }
 }
 
 /* 0 - 374 */
 @media screen and (max-width: 374px){
-    #main-info h1 {
+    .main__info .title {
         font-size: 38px;
     }
 
-    #order-form input {
+    .order__form .input {
         width: 250px;
     }
 
-    #rights {
+    .footer__rights {
         margin-left: 10px;
     }
 }

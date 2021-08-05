@@ -1,10 +1,11 @@
 $(document).ready(function() {
-    document.getElementsByClassName('header__burger').onclick = function () {
-        document.getElementById('menu').classList.add('open');
+
+    document.getElementsByClassName('header__burger')[0].onclick = function () {
+        document.getElementsByClassName('menu')[0].classList.add('open');
     };
-    document.querySelectorAll('#menu > *').forEach((item) => {
+    document.querySelectorAll('.menu > *').forEach((item) => {
         item.onclick = () => {
-            document.getElementById('menu').classList.remove('open');
+            document.getElementsByClassName('menu')[0].classList.remove('open');
         }
     })
 
