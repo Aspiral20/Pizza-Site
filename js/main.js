@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    document.getElementsByClassName('header__burger').onclick = function () {
+        document.getElementById('menu').classList.add('open');
+    };
+    document.querySelectorAll('#menu > *').forEach((item) => {
+        item.onclick = () => {
+            document.getElementById('menu').classList.remove('open');
+        }
+    })
 
     let loader = $('#loader');
 
