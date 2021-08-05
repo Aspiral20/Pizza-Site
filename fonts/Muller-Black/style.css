@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Muller-Black";
+    src: local('Muller Black'), local('Muller-Black'),
+        url('MullerBlack.woff2') format('woff2'),
+        url('MullerBlack.woff') format('woff'),
+        url('MullerBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
