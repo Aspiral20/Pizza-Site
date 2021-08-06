@@ -88,6 +88,11 @@
     .order__image .img {
         position: static;
     }
+
+    .order__hidden-block-form {
+        background: white;
+        opacity: .9;
+    }
 }
 
 /* 425 - 767 */
@@ -144,11 +149,6 @@
 
     .order__image {
         right: calc(50% - 200px);
-    }
-
-    .order__hidden-block-form {
-        background: white;
-        opacity: .9;
     }
 }
 
