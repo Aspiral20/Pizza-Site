@@ -105,12 +105,12 @@ $(document).ready(function() {
 
 
     //
-    document.getElementById('chiricoi').onclick = function () {
-        document.getElementsByClassName('main__chiricoi')[0].classList.add('openChr');
-    };
-    document.querySelectorAll('.main__chiricoi > *').forEach((item) => {
-        item.onclick = () => {
-            document.getElementsByClassName('main__chiricoi')[0].classList.remove('openChr');
-        }
-    })
+    // document.getElementById('chiricoi').onclick = function () {
+    //     document.getElementsByClassName('main__chiricoi')[0].classList.add('openChr');
+    // };
+    // document.querySelectorAll('.main__chiricoi > *').forEach((item) => {
+    //     item.onclick = () => {
+    //         document.getElementsByClassName('main__chiricoi')[0].classList.remove('openChr');
+    //     }
+    // })
 });
