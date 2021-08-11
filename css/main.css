@@ -501,7 +501,8 @@ body {
 /**/
 .main__chiricoi {
     display: none;
-    background-image: url("../images/new/slizi.jpg");
+    background: url("../images/new/slizi1.jpg") center no-repeat;
+    background-size: cover;
     position: fixed;
     flex-direction: column;
     justify-content: center;
