@@ -523,6 +523,7 @@ body {
     font-weight: bold;
     color: #ff0000;
     opacity: 1;
+    cursor: pointer;
 }
 
 .main__chiricoi .X {
@@ -533,6 +534,7 @@ body {
     text-align: center;
     opacity: 1;
     bottom: 20px;
+    cursor: pointer;
 }
 
 #chiricoi {
