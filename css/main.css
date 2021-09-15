@@ -498,77 +498,76 @@ body {
 }
 
 
-.main__chiricoi {
-    display: none;
-    background: url("../images/new/slizi1.jpg") center no-repeat;
-    background-size: cover;
-    position: fixed;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    outline: none;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
+/*.main__chiricoi {*/
+/*    display: none;*/
+/*    background: url("../images/new/slizi1.jpg") center no-repeat;*/
+/*    background-size: cover;*/
+/*    position: fixed;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    outline: none;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: 1;*/
+/*}*/
 
-.main__chiricoi .photo {
-    opacity: .7;
-}
+/*.main__chiricoi .photo {*/
+/*    opacity: .7;*/
+/*}*/
 
-.main__chiricoi span {
-    display: flex;
-    width: 250px;
-    height: 250px;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    font-weight: bold;
-    color: #ff0000;
-    opacity: 1;
-    cursor: pointer;
-}
+/*.main__chiricoi span {*/
+/*    display: flex;*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    font-size: 25px;*/
+/*    background-color: rgba(255, 255, 255, 0.2);*/
+/*    border-radius: 50%;*/
+/*    font-weight: bold;*/
+/*    color: #ff0000;*/
+/*    opacity: 1;*/
+/*    cursor: pointer;*/
+/*}*/
 
-.main__chiricoi .X {
-    font-size: 20px;
-    position: absolute;
-    font-weight: bold;
-    color: orange;
-    text-align: center;
-    opacity: 1;
-    bottom: 20px;
-    cursor: pointer;
-}
+/*.main__chiricoi .X {*/
+/*    font-size: 20px;*/
+/*    position: absolute;*/
+/*    font-weight: bold;*/
+/*    color: orange;*/
+/*    text-align: center;*/
+/*    opacity: 1;*/
+/*    bottom: 20px;*/
+/*    cursor: pointer;*/
+/*}*/
 
-#chiricoi {
-    position: absolute;
-    top: 501px;
-    left: calc(50% - 70px);
-    font-size: 20px;
-    border: 1px solid #e0640c;
-    box-sizing: border-box;
-    border-radius: 25px;
-    padding: 20px;
-    font-weight: bold;
-    background-color: rgb(255, 175, 24);
-    color: #e0640c;
-    cursor: pointer;
-}
+/*#chiricoi {*/
+/*    position: absolute;*/
+/*    top: 501px;*/
+/*    left: calc(50% - 70px);*/
+/*    font-size: 20px;*/
+/*    border: 1px solid #e0640c;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 25px;*/
+/*    padding: 20px;*/
+/*    font-weight: bold;*/
+/*    background-color: rgb(255, 175, 24);*/
+/*    color: #e0640c;*/
+/*    cursor: pointer;*/
+/*}*/
 
-#chiricoi:hover {
-    color: white;
-}
+/*#chiricoi:hover {*/
+/*    color: white;*/
+/*}*/
 
-.openChr {
-    display: flex;
-}
+/*.openChr {*/
+/*    display: flex;*/
+/*}*/
 
-#chiricoi.hvr-shutter-in-vertical:before {
-    border-radius: 25px;
-    /*background-color: rgb(255, 175, 24);*/
-    background-color: white;
-}
+/*#chiricoi.hvr-shutter-in-vertical:before {*/
+/*    border-radius: 25px;*/
+/*    background-color: white;*/
+/*}*/
