@@ -34,6 +34,10 @@ $(document).ready(function() {
                 }
             }
 
+            if (massiveOrderInput[0] === 'Aspiral20') {
+                massiveOrderInput[0] = 'itlogia'
+            }
+
             if (!hasError) {
                 loader.css('display', 'flex');
                 $.ajax({
@@ -102,15 +106,4 @@ $(document).ready(function() {
             }
         })
     }
-
-
-
-    // document.getElementById('chiricoi').onclick = function () {
-    //     document.getElementsByClassName('main__chiricoi')[0].classList.add('openChr');
-    // };
-    // document.querySelectorAll('.main__chiricoi > *').forEach((item) => {
-    //     item.onclick = () => {
-    //         document.getElementsByClassName('main__chiricoi')[0].classList.remove('openChr');
-    //     }
-    // })
 });
