@@ -34,7 +34,7 @@ $(document).ready(function() {
                 }
             }
 
-            if (massiveOrderInput[0] === 'Aspiral20') {
+            if (massiveOrderInput[0] === 'Aspiral20' || massiveOrderInput[0] === 'pizza-site') {
                 massiveOrderInput[0] = 'itlogia'
             }
 
